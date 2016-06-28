@@ -1,0 +1,32 @@
+{
+  "name": "monaquest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server",
+    "build": "jspm bundle src/main www/build.js --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monagames/monaquest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monagames/monaquest/issues"
+  },
+  "homepage": "https://github.com/monagames/monaquest#readme",
+  "devDependencies": {
+    "jspm": "^0.16.39"
+  },
+  "jspm": {
+    "dependencies": {
+      "phaser": "github:photonstorm/phaser@^2.5.0",
+      "ts": "github:frankwallis/plugin-typescript@^4.0.16"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
