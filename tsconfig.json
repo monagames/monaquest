@@ -6,5 +6,5 @@
         "outDir": "built",
         "noImplicitReturns": true
     },
-    "exclude": ["node_modules", "jspm_packages"]
+    "exclude": ["jspm_packages"]
 }

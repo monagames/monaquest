@@ -20,6 +20,10 @@ export class Loader extends ph.State {
         this.load.path ="assets/";
         
         this.load.image("tiles");
+        this.load.tilemap('map', 'map.json', null, Phaser.Tilemap.TILED_JSON);
+        //this.load.image('tiles');
+        this.load.image('sky');
+        this.load.spritesheet('wizard', 'wizard.png', 32, 32);        
         // this.load.image("diamond", "diamond.png");
         // this.load.spritesheet("astro", "astro.png", 32, 48);
         // this.load.image("sky", "space.jpg");

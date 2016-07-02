@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/monagames/monaquest#readme",
   "devDependencies": {
-    "jspm": "^0.16.39"
+    "jspm": "^0.16.39",
+    "phaser": "git://github.com/monagames/phaser.git#82bfec21df3c9cc4901bdeaa1565d9b0e11d7ebd"
   },
   "jspm": {
     "dependencies": {

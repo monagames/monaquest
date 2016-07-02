@@ -14,6 +14,10 @@ export class SimpleCursor {
         return this.cursors.up.isDown || this.rightPointer.isDown;
     }
 
+    get down() {
+        return this.cursors.down.isDown; // || this.rightPointer.isDown;
+    }
+
     get left() {
         let p = this.leftPointer;
         return this.cursors.left.isDown || ((p.isDown && p.positionDown.x - p.position.x > this.threshold));
