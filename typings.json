@@ -1,3 +1,5 @@
 {
-  "globalDevDependencies": {}
+  "globalDevDependencies": {
+    "phaser": "github:monagames/phaser/typescript"
+  }
 }
